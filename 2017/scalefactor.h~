@@ -1,0 +1,560 @@
+//RecoScaleFactors(Electrons): 2017
+double VLLAna::getScaleFactors_Electrons_Reco(float eta, float pt){
+  double scale_factor = 1.0;
+  
+  if(10<pt && pt<20){
+    if(-5.0<eta && eta<-2.1) 
+      scale_factor = 0.99895179271698;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 0.99895179271698;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 1.1436463594436646;
+    if(-1.444<eta && eta<-1.0) 
+      scale_factor = 0.9888888597488404;
+    if(-1.0<eta && eta<0.0) 
+      scale_factor = 1.0768293142318726;
+    if(0.0<eta && eta<1.0) 
+      scale_factor = 1.0768293142318726;
+    if(1.0<eta && eta<1.444) 
+      scale_factor = 0.9888888597488404;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 1.1436463594436646;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 0.99895179271698;
+    if(2.0<eta && eta<5.0) 
+      scale_factor = 0.99895179271698;
+  }
+  if(20<pt && pt<45){
+    if(-5.0<eta && eta<-2.1) 
+      scale_factor = 0.98353910446167;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 0.9887179732322692;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 0.9754385948181152;
+    if(-1.444<eta && eta<-1.0) 
+      scale_factor = 0.98238343000412;
+    if(-1.0<eta && eta<-0.5) 
+      scale_factor = 0.9886831045150756;
+    if(-0.5<eta && eta<0.0) 
+      scale_factor = 0.9865702390670776;
+    if(0.0<eta && eta<0.5) 
+      scale_factor = 0.9864583611488342;
+    if(0.5<eta && eta<1.0) 
+      scale_factor = 0.987525999546051;
+    if(1.0<eta && eta<1.444) 
+      scale_factor = 0.9791013598442078;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 0.9870129823684692;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 0.9877049326896667;
+    if(2.0<eta && eta<5.0) 
+      scale_factor = 0.9866803288459778;
+    }
+    
+  if(45<pt && pt<75){
+    if(-5.0<eta && eta<-2.1) 
+      scale_factor = 0.98670756816864;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 0.9887869358062744;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 0.96592116355896;
+    if(-1.444<eta && eta<-1.0) 
+      scale_factor = 0.98353910446167;
+    if(-1.0<eta && eta<-0.5) 
+      scale_factor = 0.9877426028251648;
+    if(-0.5<eta && eta<0.0) 
+      scale_factor = 0.9876922965049744;
+    if(0.0<eta && eta<0.5) 
+      scale_factor = 0.9855072498321532;
+    if(0.5<eta && eta<1.0) 
+      scale_factor = 0.9886128306388856;
+    if(1.0<eta && eta<1.444) 
+      scale_factor = 0.98031085729599;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 0.9741935729980468;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 0.9887869358062744;
+    if(2.0<eta && eta<5.0) 
+      scale_factor = 0.9887869358062744;
+    }
+
+  if(75<pt && pt<100){
+    if(-5.0<eta && eta<-2.1) 
+      scale_factor = 0.996926248073578;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 0.9939024448394777;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 1.0338428020477295;
+    if(-1.444<eta && eta<-1.0) 
+      scale_factor = 0.9979296326637268;
+    if(-1.0<eta && eta<-0.5) 
+      scale_factor = 0.9897330403327942;
+    if(-0.5<eta && eta<0.0) 
+      scale_factor = 0.9897540807724;
+    if(0.0<eta && eta<0.5) 
+      scale_factor = 0.9897540807724;
+    if(0.5<eta && eta<1.0) 
+      scale_factor = 0.9897330403327942;
+    if(1.0<eta && eta<1.444) 
+      scale_factor = 0.9979296326637268;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 1.0338428020477295;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 0.9939024448394777;
+    if(2.0<eta && eta<5.0) 
+      scale_factor = 0.996926248073578;
+    }
+  if(100<pt && pt<1000){
+    if(-5.0<eta && eta<-2.1) 
+      scale_factor = 0.9989827275276184;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 1.007128357887268;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 1.030803084373474;
+    if(-1.444<eta && eta<-1.0) 
+      scale_factor = 0.9938271641731262;
+    if(-1.0<eta && eta<-0.5) 
+      scale_factor = 0.9959100484848022;
+    if(-0.5<eta && eta<0.0) 
+      scale_factor = 0.9959058165550232;
+    if(0.0<eta && eta<0.5) 
+      scale_factor = 0.9959058165550232;
+    if(0.5<eta && eta<1.0) 
+      scale_factor = 0.9959100484848022;
+    if(1.0<eta && eta<1.444) 
+      scale_factor = 0.9938271641731262;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 1.030803084373474;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 1.007128357887268;
+    if(2.0<eta && eta<5.0) 
+      scale_factor = 0.9989827275276184;
+    }
+  return scale_factor;
+}
+
+double VLLAna::getScaleFactors_Electrons_IDIso(float eta, float pt){
+  double scale_factor = 1.0;
+  
+  if(10<pt && pt<20){
+    if(-2.4<eta && eta<-2.1) 
+      scale_factor = 1.0568181276321411;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 1.0353130102157593;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 1.0;
+    if(-1.444<eta && eta<-0.8) 
+      scale_factor = 1.0157480239868164;
+    if(-0.8<eta && eta<0.0) 
+      scale_factor = 0.970703125;
+    if(0.0<eta && eta<0.8) 
+      scale_factor = 0.9808428883552552;
+    if(0.8<eta && eta<1.444) 
+      scale_factor = 1.0078431367874146;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 1.0;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 1.0016286373138428;
+    if(2.0<eta && eta<2.4) 
+      scale_factor = 1.0356472730636597;
+  }
+
+  if(20<pt && pt<35){
+    if(-2.4<eta && eta<-2.1) 
+      scale_factor = 1.0014164447784424;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 0.9870466589927672;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 1.0;
+    if(-1.444<eta && eta<-0.8) 
+      scale_factor = 0.9584487676620485;
+    if(-0.8<eta && eta<0.0) 
+      scale_factor = 0.967346966266632;
+    if(0.0<eta && eta<0.8) 
+      scale_factor = 0.9728997349739076;
+    if(0.8<eta && eta<1.444) 
+      scale_factor = 0.9650349617004396;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 1.0;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 0.9750983119010924;
+    if(2.0<eta && eta<2.4) 
+      scale_factor = 0.9886845946311952;
+  }
+
+  if(35<pt && pt<50){
+    if(-2.4<eta && eta<-2.1) 
+      scale_factor = 0.9950980544090272;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 0.9861271381378174;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 1.0;
+    if(-1.444<eta && eta<-0.8) 
+      scale_factor = 0.9647887349128724;
+    if(-0.8<eta && eta<0.0) 
+      scale_factor = 0.9686775207519532;
+    if(0.0<eta && eta<0.8) 
+      scale_factor = 0.9732868671417236;
+    if(0.8<eta && eta<1.444) 
+      scale_factor = 0.9668246507644652;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 1.0;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 0.9802784323692322;
+    if(2.0<eta && eta<2.4) 
+      scale_factor = 0.9852579832077026;
+  }
+
+  if(50<pt && pt<100){
+    if(-2.4<eta && eta<-2.1) 
+      scale_factor = 0.9918032884597778;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 0.9865319728851318;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 1.0;
+    if(-1.444<eta && eta<-0.8) 
+      scale_factor = 0.966216206550598;
+    if(-0.8<eta && eta<0.0) 
+      scale_factor = 0.9709821343421936;
+    if(0.0<eta && eta<0.8) 
+      scale_factor = 0.9732142686843872;
+    if(0.8<eta && eta<1.444) 
+      scale_factor = 0.9693877696990968;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 1.0;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 0.9797979593276978;
+    if(2.0<eta && eta<2.4) 
+      scale_factor = 0.9801169633865356;
+  }
+
+  if(100<pt && pt<1000){
+    if(-2.4<eta && eta<-2.1) 
+      scale_factor = 1.0;
+    if(-2.1<eta && eta<-1.566) 
+      scale_factor = 0.9978237152099608;
+    if(-1.566<eta && eta<-1.444) 
+      scale_factor = 1.0;
+    if(-1.444<eta && eta<-0.8) 
+      scale_factor = 1.0021858215332031;
+    if(-0.8<eta && eta<0.0) 
+      scale_factor = 0.990217387676239;
+    if(0.0<eta && eta<0.8) 
+      scale_factor = 1.0054525136947632;
+    if(0.8<eta && eta<1.444) 
+      scale_factor = 1.0054824352264404;
+    if(1.444<eta && eta<1.566) 
+      scale_factor = 1.0;
+    if(1.566<eta && eta<2.0) 
+      scale_factor = 0.99672132730484;
+    if(2.0<eta && eta<2.4) 
+      scale_factor = 0.9854586124420166;
+  }
+  return scale_factor;
+}
+
+//RecoScaleFactors(Muons): 2017
+double VLLAna::getScaleFactors_Muons_Reco(float eta, float pt){
+  double scale_factor=1.0;
+
+  if(fabs(eta)<0.9){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+    
+  }
+  
+  else if(0.9<fabs(eta) && fabs(eta)<1.2){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+
+  
+  else if(1.2<fabs(eta) && fabs(eta)<2.1){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+  
+  else if(2.1<fabs(eta) && fabs(eta)<2.4){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+  return scale_factor;
+}
+
+//IDScaleFactors(Muons): 2018
+double VLLAna::getScaleFactors_Muons_ID(float eta, float pt){
+  double scale_factor=1.0;
+
+  if(fabs(eta)<0.9){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+    
+  }
+  
+  else if(0.9<fabs(eta) && fabs(eta)<1.2){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+
+  
+  else if(1.2<fabs(eta) && fabs(eta)<2.1){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+  
+  else if(2.1<fabs(eta) && fabs(eta)<2.4){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+  return scale_factor;
+}
+
+//IsoScaleFactors(Muons): 2018
+double VLLAna::getScaleFactors_Muons_ISO(float eta, float pt){
+  double scale_factor=1.0;
+
+  if(fabs(eta)<0.9){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+    
+  }
+  
+  else if(0.9<fabs(eta) && fabs(eta)<1.2){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+
+  
+  else if(1.2<fabs(eta) && fabs(eta)<2.1){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+  
+  else if(2.1<fabs(eta) && fabs(eta)<2.4){
+    if( 15<pt && pt<20)
+      scale_factor =  ;
+    if( 20<pt && pt<25)
+      scale_factor =  ;
+    if( 25<pt && pt<30)
+      scale_factor =  ;
+    if( 30<pt && pt<40)
+      scale_factor =  ;
+    if( 40<pt && pt<50)
+      scale_factor =  ;
+    if( 50<pt && pt<60)
+      scale_factor =  ;
+    if( 60<pt && pt<120)
+      scale_factor =  ;
+    if( 120<pt && pt<3000)
+      scale_factor =  ;
+  }
+  return scale_factor;
+}
+//AntiJetScaleFactors(Taus): 2018
+double VLLAna::getScaleFactors_Taus_AntiJet(float pt){
+  double scale_factor=1.0;
+
+  if( 20<pt && pt<25)
+    scale_factor = ;
+  if( 25<pt && pt<30)
+    scale_factor = ;
+  if( 30<pt && pt<35)
+    scale_factor = ;
+  if( 35<pt && pt<40)
+    scale_factor = ;
+  if( 40<pt && pt<500)
+    scale_factor = ;
+  if( 500<pt && pt<1000)
+    scale_factor = ;
+  if( 1000<pt && pt<2000)
+    scale_factor = ;
+  
+  return scale_factor;
+
+}
+//AntiEleScaleFactors(Taus): 2018
+double VLLAna::getScaleFactors_Taus_AntiEle(float eta){
+  double scale_factor=1.0;
+
+  if( 0.0<eta && eta<1.46)
+    scale_factor = ;
+  if( 1.46<eta && eta<1.558)
+    scale_factor = ;
+  if( 1.558<eta && eta<2.3)
+    scale_factor = ;
+    
+  return scale_factor;
+}
+
+//AntiMuScaleFactors(Taus): 2018
+double VLLAna::getScaleFactors_Taus_AntiMu(float eta){
+  double scale_factor=1.0;
+
+  if( 0.0<eta && eta<0.4)
+    scale_factor = ;
+  if( 0.4<eta && eta<0.8)
+    scale_factor = ;
+  if( 0.8<eta && eta<1.2)
+    scale_factor = ;
+  if( 1.2<eta && eta<1.7)
+    scale_factor = ;
+  if( 1.7<eta && eta<2.3)
+    scale_factor = ;
+  
+  return scale_factor;
+
+}
